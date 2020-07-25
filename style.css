@@ -124,7 +124,7 @@
 .S_Explain .score .f_d .range{
 	width: 400px;
 	height: 2px;
-	color: grey;
+	color: #cac5c5;
 	background: grey;
 	border: 1px solid grey;
 	border-radius: 20px;
@@ -146,7 +146,7 @@
 {
     .hole{
         height: 1800px;
-        background: #cac5c5;;
+        background: #cac5c5;
     }
     .main{
         position: relative;
@@ -177,7 +177,7 @@
         position: relative;
 	display: inline;
 	text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         left: 20px;
         margin-right: 35px;
         top: 60px;
