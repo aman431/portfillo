@@ -3,22 +3,16 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 .hole{
     background: #cac5c5;
     height: 1200px;
 }
+
 .header{
 	background: #269926;
 	height: 450px;
 }
-
-/*.main{
-	position: relative;
-	height: 100vh;
-	padding-left:80px;
-	padding-right:80px;
-	padding-top: 30px;
-}*/
 
 .main{
     position:relative;
@@ -26,6 +20,7 @@
     margin-right: 80px;
     top: 40px;
 }
+
 .Name{
 	color: white;
 	word-spacing: 1px;
@@ -163,26 +158,28 @@
     }
     .Name{
         position: relative;
-        margin-left: 9px;
+        margin-left: 15px;
+	text-align: center;
         word-spacing: 0px;
+	letter-spacing: 0px;
         top: 40px;
     }
     .Name h1{
         
-        font-size: 18px;
+        font-size: 20px;
         font-family: initial;
     }
     .Name p{
        
-        font-size: 10px;
+        font-size: 12px;
     }
     .main_nav li{
-        postion: relative;
-        display: inline;
-        float: left;
+        position: relative;
+	display: inline;
+	text-align: center;
         font-size: 16px;
-        margin-left: 25px;
-        margin-right: 0px;
+        //margin-left: 25px;
+        margin-right: 30px;
         top: 60px;
         padding: 0px;
     }
