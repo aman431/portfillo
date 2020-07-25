@@ -1,0 +1,238 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.hole{
+    background: #cac5c5;
+    height: 1200px;
+}
+.header{
+	background: #269926;
+	height: 450px;
+}
+
+/*.main{
+	position: relative;
+	height: 100vh;
+	padding-left:80px;
+	padding-right:80px;
+	padding-top: 30px;
+}*/
+
+.main{
+    position:relative;
+    margin-left: 80px;
+    margin-right: 80px;
+    top: 40px;
+}
+.Name{
+	color: white;
+	word-spacing: 1px;
+	letter-spacing: 5px;
+	font-family:initial;
+}
+.Name h1{	
+	font-size: 25px;
+	Text-transform: uppercase;
+}
+.Name p{
+	font-size: 14.3px;
+}
+.main_nav li{
+	display: inline;
+	position: relative;
+	float: right;
+	padding: 2px;
+	top: -40px;
+	margin-right: 40px;
+	font-size: 20px;
+	color: #fff;
+	border: 1px solid #269926;
+	border-radius: 50px;
+}
+.main_nav li a i{
+	color: white;
+}
+.Introduction{
+	display: flex;
+	background: #fff;
+	height: 392px;
+	margin-top: 100px;
+	width: auto;
+}
+
+.Introduction .pic img{
+	height: 100%;
+	width: 100%;
+}
+.Introduction .Intro_data{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.Introduction .Intro_data .head{
+	border-bottom: 1px solid grey;
+	width: 450px;
+}
+.Introduction .Intro_data .Information p{
+	padding-top: 20px;
+}
+.Introduction .Intro_data .logo-nav{
+	position: relative;
+	width: 105%; 
+	left: -20px;
+	height: 50px;
+	background: #269926;
+} 
+.Introduction .Intro_data .logo-nav li{
+	display: inline;
+	padding: 35px;
+	color: white;
+	font-size: 20px;
+	list-style: none;
+}
+.Introduction .Intro_data .logo-nav li a i{
+	color: white;
+        padding-top: 15px;
+}
+.skills{
+    margin-top: 60px;
+}
+.skills h2{
+    text-align: center;
+    color: #269926;
+}
+.S_Explain{
+    display: flex;
+    background: white;
+    margin-top: 40px;
+    width: 850px;
+    height: 392px;
+}
+.S_Explain .contain{
+    display: block;
+    width: 350px;
+    padding: 40px;
+    font-size: 13px;
+}
+.S_Explain .score{
+    padding:40px;
+    padding-left: 5px;
+}
+.S_Explain .score span{
+    position: relative;
+    left: 210px;   
+}
+.S_Explain .score .f_d{
+    padding-bottom: 30px;
+}
+.S_Explain .score .f_d .range{
+	width: 400px;
+	height: 2px;
+	color: grey;
+	background: grey;
+	border: 1px solid grey;
+	border-radius: 20px;
+}
+.f_d p{
+    padding-bottom: 7px;
+    font-size: 13px;
+}
+.S_Explain .score .f_d .range .inner{
+	width: 85%;
+	height: 1px;
+	color: red;
+	background: green;
+	border: 1px solid green;
+	border-radius: 20px;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .hole{
+        height: 1800px;
+        background: #cac5c5;;
+    }
+    .main{
+        position: relative;
+        margin-left: 30px;
+    }
+    .header{
+        
+        height: 450px;
+    }
+    .Name{
+        position: relative;
+        margin-left: 9px;
+        word-spacing: 0px;
+        top: 40px;
+    }
+    .Name h1{
+        
+        font-size: 18px;
+        font-family: initial;
+    }
+    .Name p{
+       
+        font-size: 10px;
+    }
+    .main_nav li{
+        postion: relative;
+        display: inline;
+        float: left;
+        font-size: 16px;
+        margin-left: 25px;
+        margin-right: 0px;
+        top: 60px;
+        padding: 0px;
+    }
+    .Introduction{
+        position: relative;
+        top: 80px;
+        width: 300px;
+        height: 350px;
+    }
+    .Introduction .Intro_data{
+        font-size: 12px;
+    }
+    .Introduction .Intro_data .logo-nav{
+        width: 300px;
+        
+    }
+    .Introduction .Intro_data .logo-nav li{
+        position: relative;
+        padding: 12px;
+        left: 30px;
+    }
+    .Introduction .Intro_data .head{
+        width: 250px;
+    }
+    .skills{
+        margin-top: 130px;
+    }
+    .skills h2{
+        text-align: center;
+        color: #269926;
+    }
+    .S_Explain {
+        display: block;
+        width: 300px;
+        height: 700px;
+    }
+    .S_Explain .contain{
+        width: 250px;
+        padding: 30px;
+        padding-left: 20px;
+        font-size: 13px;
+    }
+    .S_Explain .score span{
+        position: relative;
+        left: 85px;   
+    }
+    .S_Explain .score .f_d{
+        padding-bottom: 30px;
+    }
+    .S_Explain .score .f_d .range{
+	width: 275px;
+    }
+}
