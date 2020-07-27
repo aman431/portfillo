@@ -424,7 +424,10 @@
     }
     .Introduction .Intro_data .logo-nav li{
         position: relative;
-        padding: 12px;
+        padding: 0px;
+	margin-right: 20px;
+	margin-left: 5px;
+	font-size: 25px;
         left: 30px;
     }
     .Introduction .Intro_data .head{
