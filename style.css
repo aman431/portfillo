@@ -5,7 +5,7 @@
 }
 .hole{
     background: #cac5c5;
-    height: 2500px;
+    height: 2000px;
 }
 .header{
 	background: #269926;
@@ -39,8 +39,10 @@
 	margin-right: 40px;
 	font-size: 20px;
 	color: #fff;
-	border: 1px solid #269926;
+	border:1px solid #03b003;
+	box-shadow: -10px -10px 10px rgba(43, 223, 24, 0.2),10px 10px 10px rgba(0, 0, 0, 0.23);
 	border-radius: 50px;
+
 }
 .main_nav li a i{
 	color: white;
@@ -52,7 +54,6 @@
 	margin-top: 100px;
 	width: auto;
 }
-
 .Introduction .pic img{
 	height: 100%;
 	width: 100%;
@@ -77,14 +78,28 @@
 } 
 .Introduction .Intro_data .logo-nav li{
 	display: inline;
-	padding: 35px;
+	padding: 0px;
+	margin-left: 20px;
+	margin-right: 50px;
+	bottom: 5px;
+	position: relative;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	list-style: none;
+	box-shadow: -10px -10px 10px rgba(43, 223, 24, 0.2),10px 10px 10px rgba(0, 0, 0, 0.23);
+	border-radius: 50px;
 }
 .Introduction .Intro_data .logo-nav li a i{
 	color: white;
         padding-top: 15px;
+}
+.Information .git a{
+	text-decoration: none;
+	color: black;
+}
+.Information .Linked a{
+	text-decoration: none;
+	color: black;
 }
 .skills{
     margin-top: 60px;
@@ -99,6 +114,7 @@
     margin-top: 40px;
     width: 850px;
     height: 392px;
+    box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
 .S_Explain .contain{
     display: block;
@@ -229,7 +245,9 @@
 	margin-left: -30px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: 5px 10px #dbc8c8;
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
+		    10px 10px 10px rgba(0, 0, 0, 0.23);
+
 }
 .box{
 	position: relative;
@@ -250,7 +268,9 @@
 	margin-left: -30px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: 5px 10px #dbc8c8;
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
+		    10px 10px 10px rgba(0, 0, 0, 0.23);
+
 }
 .para .para3{
 	position: relative;
@@ -260,8 +280,10 @@
 	margin-left: -30px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: 5px 10px #dbc8c8;
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
+		    10px 10px 10px rgba(0, 0, 0, 0.23);
 }
+
 .para2{
 	display: block;
 	position: relative;
@@ -274,7 +296,8 @@
 	margin-left: 22px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: 5px 10px #dbc8c8;
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
+		    10px 10px 10px rgba(0, 0, 0, 0.23);
 }
 .para2 .para2_2{
 	position: relative;
@@ -284,8 +307,10 @@
 	margin-left: 22px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: 5px 10px #dbc8c8
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
+		    10px 10px 10px rgba(0, 0, 0, 0.23);
 }
+
 .para2 .para2_3{
 	position: relative;
 	width: 395px;
@@ -294,7 +319,9 @@
 	margin-left: 22px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: 5px 10px #dbc8c8;
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
+		    10px 10px 10px rgba(0, 0, 0, 0.23);
+
 }
 .box2{
 	position: relative;
@@ -339,13 +366,12 @@
     float: right;
     transform: rotate(180deg);
     border-right: 7px solid transparent;
-    boder-left: 7px solid transparent;
     border-top: 12px solid #269926;
 }
 @media only screen and (max-width: 700px)
 {
     .hole{
-        height: 3500px;
+        height: 2650px;
         background: #cac5c5;;
     }
     .main{
