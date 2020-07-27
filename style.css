@@ -39,8 +39,8 @@
 	margin-right: 40px;
 	font-size: 20px;
 	color: #fff;
-	border:1px solid #03b003;
-	box-shadow: -10px -10px 10px rgba(43, 223, 24, 0.2),10px 10px 10px rgba(0, 0, 0, 0.23);
+	border:1px solid #269926;
+	box-shadow: -10px -10px 10px #269926,10px 10px 10px #269926;
 	border-radius: 50px;
 
 }
