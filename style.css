@@ -48,11 +48,10 @@
 .Introduction{
 	display: flex;
 	background: #fff;
-	height: 411px;
+	height: 412px;
 	margin-top: 100px;
 	width: auto;
 }
-
 .Introduction .pic img{
 	height: 100%;
 	width: 100%;
@@ -333,6 +332,7 @@
 }
 .year p{
     padding: 10px;
+    cursor: pointer;
     font-size: 12px;
     font-weight: bold;
 }
@@ -390,7 +390,7 @@
         font-size: 10px;
     }
     .main_nav li{
-        postion: relative;
+        position: relative;
         display: inline;
         text-align: center;
         font-size: 16px;
@@ -403,7 +403,7 @@
         position: relative;
         top: 80px;
         width: 300px;
-        height: 320px;
+        height: 100%;
     }
     .Introduction .Intro_data{
         font-size: 12px;
