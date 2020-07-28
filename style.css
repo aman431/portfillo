@@ -5,7 +5,7 @@
 }
 .hole{
     background: #cac5c5;
-    height: 2000px;
+    height: 1900px;
 }
 .header{
 	background: #269926;
@@ -39,10 +39,8 @@
 	margin-right: 40px;
 	font-size: 20px;
 	color: #fff;
-	border:1px solid #269926;
-	box-shadow: -10px -10px 10px #269926,10px 10px 10px #269926;
+	border: 1px solid #269926;
 	border-radius: 50px;
-
 }
 .main_nav li a i{
 	color: white;
@@ -50,10 +48,11 @@
 .Introduction{
 	display: flex;
 	background: #fff;
-	height: 392px;
+	height: 411px;
 	margin-top: 100px;
 	width: auto;
 }
+
 .Introduction .pic img{
 	height: 100%;
 	width: 100%;
@@ -78,28 +77,14 @@
 } 
 .Introduction .Intro_data .logo-nav li{
 	display: inline;
-	padding: 0px;
-	margin-left: 20px;
-	margin-right: 50px;
-	bottom: 5px;
-	position: relative;
+	padding: 35px;
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 	list-style: none;
-	box-shadow: -10px -10px 10px rgba(43, 223, 24, 0.2),10px 10px 10px rgba(0, 0, 0, 0.23);
-	border-radius: 50px;
 }
 .Introduction .Intro_data .logo-nav li a i{
 	color: white;
         padding-top: 15px;
-}
-.Information .git a{
-	text-decoration: none;
-	color: black;
-}
-.Information .Linked a{
-	text-decoration: none;
-	color: black;
 }
 .skills{
     margin-top: 60px;
@@ -154,19 +139,24 @@
 	border-radius: 20px;
 }
 .whole{
+    display: flex;
+    justify-content: center;
     margin-top: 100px;
-    margin-left: 430px;
+    height: auto;
 }
-.whole h2{
+.Education{
+        
 	position: relative;
         color: #269926;
-	right: 60px;
-	bottom: 50px;
+        text-align: center;
+        top: 40px;
 }
 .line{
-	display: block;
+        
+	display: inline-block;
 	height: 470px;
-	color: white;
+	color: white;        
+        jutify-content: center;
 	width: 0px;
 	background: white;
 	border: 1px solid white;
@@ -234,20 +224,16 @@
 }
 .para{
 	display: block;
-	position: relative;
-	top: -485px;
-	left: -400px;
 }
 .para .para1{
 	position: relative;
 	width: 410px;
 	height: 150px;
-	margin-left: -30px;
+	left: -19px;
+        top: -13px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
-		    10px 10px 10px rgba(0, 0, 0, 0.23);
-
+        box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
 .box{
 	position: relative;
@@ -263,65 +249,57 @@
 .para .para2{
 	position: relative;
 	width: 410px;
-	top: 24px;
+        left: -19px;
+	top: 10px;
 	height: 150px;
-	margin-left: -30px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
-		    10px 10px 10px rgba(0, 0, 0, 0.23);
-
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
 .para .para3{
 	position: relative;
 	width: 410px;
-	top: 48px;
+/*	top: 48px;*/
+        top: 34px;
+        left: -19px;
 	height: 150px;
-	margin-left: -30px;
+/*	margin-left: -30px;*/
 	background: white;
 	border: 1px solid white;
-	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
-		    10px 10px 10px rgba(0, 0, 0, 0.23);
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
-
 .para2{
 	display: block;
-	position: relative;
-	top: -912px;
 }
 .para2 .para2_1{
 	position: relative;
 	width: 395px;
 	height: 150px;
-	margin-left: 22px;
+        left: 19px;
+        top: 13px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
-		    10px 10px 10px rgba(0, 0, 0, 0.23);
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
 .para2 .para2_2{
 	position: relative;
 	width: 395px;
-	top: 23px;
+	top: 38px;
 	height: 150px;
-	margin-left: 22px;
+	left: 19px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
-		    10px 10px 10px rgba(0, 0, 0, 0.23);
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
-
 .para2 .para2_3{
 	position: relative;
 	width: 395px;
-	top: 47px;
+	top: 61px;
 	height: 150px;
-	margin-left: 22px;
+	left: 19px;
 	background: white;
 	border: 1px solid white;
-	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 
-		    10px 10px 10px rgba(0, 0, 0, 0.23);
-
+	box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
 .box2{
 	position: relative;
@@ -366,12 +344,24 @@
     float: right;
     transform: rotate(180deg);
     border-right: 7px solid transparent;
+    boder-left: 7px solid transparent;
     border-top: 12px solid #269926;
+}
+.Information .git a{
+	text-decoration: none;
+	color: #349105;
+}
+.Information .Linked a{
+	text-decoration: none;
+	color: #349105;
+}
+.Information .Linked a span{
+    padding-left: 87px;
 }
 @media only screen and (max-width: 700px)
 {
     .hole{
-        height: 2650px;
+        height: 2550px;
         background: #cac5c5;;
     }
     .main{
@@ -424,11 +414,9 @@
     }
     .Introduction .Intro_data .logo-nav li{
         position: relative;
-        padding: 0px;
-	margin-right: 20px;
-	margin-left: 5px;
-	font-size: 25px;
+        padding: 12px;
         left: 30px;
+        font-size: 22px;
     }
     .Introduction .Intro_data .head{
         width: 250px;
@@ -445,7 +433,7 @@
     .S_Explain {
         display: block;
         width: 300px;
-        height: 700px;
+        height: 750px;
     }
     .S_Explain .contain{
         width: 250px;
@@ -464,15 +452,18 @@
 	width: 275px;
     }
     .whole{
+        display: block;
         margin-top: 40px;
         margin-left: 0px;
     }
-    .whole h2{
+    .Education {
 	position: relative;
         color: #269926;
         text-align: center;
-	right: 0px;
-	bottom: 0px;
+        top: 20px;
+    }
+    .Information .Linked a span{
+        padding-left: 68px;
     }
     .line{
 	display: block;
@@ -480,91 +471,245 @@
 	color: #cac5c5;
 	width: 0px;
 	background: white;
-	border: 1px solid #cac5c5;
+	border: 1px solid white;
 }
 .line .spot1{
 	top: 0px;
 	right: 0px;
-	background:#cac5c5;
-	border: 1px solid #cac5c5;
+	background: white;
+	border: 1px solid white;
 }
 .line .spot2{
     	top: 0px;
 	right: 0px;
-	background:#cac5c5;
-	border: 1px solid #cac5c5;
+	background:white;
+	border: 1px solid white;
 }
 .line .spot3{
     	top: 0px;
 	right: 0px;
-	background:#cac5c5;
-	border: 1px solid #cac5c5;
+	background:white;
+	border: 1px solid white;
 }
 
 .line .spot4{
     	top: 0px;
 	right: 0px;
-	background:#cac5c5;
-	border: 1px solid #cac5c5;
+	background:white;
+	border: 1px solid white;
 }
 .line .spot5{
     	top: 0px;
 	right: 0px;
-	background:#cac5c5;
-	border: 1px solid #cac5c5;
+	background:white;
+	border: 1px solid white;
 }
 .line .spot6{
     	top: 0px;
 	right: 0px;
-	background: #cac5c5;
-	border: 1px solid #cac5c5;
+	background: white;
+	border: 1px solid white;
 }
 .para{
 	display: block;
 	position: relative;
-	top: 40px;
+	top: 30px;
 	left: 0px;
 }
 .para .para1{
 	width: 300px;
 	height: 150px;
+        left: 0px;
+/*        top: -13px;*/
 	margin-left: 0px;
 }
 .para .para2{
 	width: 300px;
 	height: 150px;
-	margin-left: 0px;
+	left: 0px;
 }
 .para .para3{
 	width: 300px;
 	height: 150px;
-	margin-left: 0px;
+        background: white;
+	left: 0px;
 }
 .para2{
 	display: block;
 	position: relative;
-	top: 120px;
+	top: 73px;
 }
 .para2 .para2_1{
 	position: relative;
 	width: 300px;
 	height: 150px;
-        margin-left: 0px;
+        left: 0px;
 }
 .para2 .para2_2{
 	position: relative;
 	width: 300px;
 	height: 150px;
-        margin-left: 0px;
+        left: 0px;
 }
 .para2 .para2_3{
 	position: relative;
 	width: 300px;
 	height: 150px;
-        margin-left: 0px;
+        left: 0px;
 }
 .box2{
 	float:right;
 	left:12px;
 }
 }
+/*
+@media only screen and (max-width: 800px){
+    .Name{
+        position: relative;
+        word-spacing: 0px;
+    }
+    .Name h1{  
+        font-size: 18px;
+        font-family: initial;
+    }
+    .Name p{
+        font-size: 12px;
+        letter-spacing: 3.3px;
+    }
+    .main_nav li{
+        margin-right: 20px;
+        font-size: 25px;
+    }
+    .Introduction{
+	height: 353px;
+	margin-top: 200px;
+    }
+    .Introduction .pic img{
+	height: 100%;
+	width: 160%;
+    }
+    .Introduction .Intro_data{
+        position: relative;
+	margin-top: 20px;
+	left: 93.5px;
+        font-size: 12px;
+    }
+    .Introduction .Intro_data .logo-nav li{
+        position: relative;
+        padding: 12px;
+        left: 30px;
+    }
+    .Introduction .Intro_data .head{
+        position: relative;
+	border-bottom: 1px solid grey;
+        border-bottom: 1px ;
+	width: 450px;
+    }
+    .Introduction .Intro_data .Information p{
+	padding-top: 20px;
+    }
+    .Introduction .Intro_data .logo-nav{
+	position: relative;
+	width: 86%; 
+	left: -31px;
+	height: 50px;
+	background: #269926;
+    } 
+.Introduction .Intro_data .logo-nav li{
+	padding: 55px;
+        padding-left: 0px;
+	font-size: 20px;
+}
+.S_Explain{
+    width: 100%;
+}
+.S_Explain .score span{
+    position: relative;
+    left: 60px;   
+}
+.S_Explain .score .f_d .range{
+	width: 250px;
+}
+.whole{
+    display:flex;
+    justify-content: center;
+    height: auto;
+    widht: 100%;
+}
+.line{
+        margin-left: 150px;
+}
+.para{
+	display: block;
+	position: relative;
+        length: -300px;
+	top: -485px;
+	left: -400px;
+}
+.para .para1{
+	position: relative;
+	width: 310px;
+	left: 130px;
+}
+.para .para2{
+	width: 240px;
+        left: 100px;
+}
+.para .para3{
+	width: 290px;
+        top: 34px;
+        left: -19px;
+	height: 150px;
+	margin-left: -30px;
+	background: white;
+	border: 1px solid white;
+	box-shadow: 5px 10px #dbc8c8;
+}
+.para2{
+	display: block;
+	position: relative;
+        bottom: -100px;
+        top: -912px;
+}
+.para2 .para2_1{
+	position: relative;
+        width: 270px;
+	right: 130px;
+        top: 13px;
+	margin-left: 22px;
+	background: white;
+	border: 1px solid white;
+	box-shadow: 5px 10px #dbc8c8;
+}
+.para2 .para2_2{
+	position: relative;
+	width: 395px;
+	top: 38px;
+	height: 150px;
+	left: 19px;
+	background: white;
+	border: 1px solid white;
+	box-shadow: 5px 10px #dbc8c8
+}
+.para2 .para2_3{
+	position: relative;
+	width: 395px;
+	top: 61px;
+	height: 150px;
+	left: 19px;
+	background: white;
+	border: 1px solid white;
+	box-shadow: 5px 10px #dbc8c8;
+}
+.box2{
+	position: relative;
+	float:left;
+	height: 20px;
+	right:12px;
+	top: 27px;
+	width: 20px;
+	background: white;
+	transform: rotate(45deg);
+	border: 1px solid white;
+}
+}*/
