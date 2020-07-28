@@ -344,7 +344,7 @@
     float: right;
     transform: rotate(180deg);
     border-right: 7px solid transparent;
-    boder-left: 7px solid transparent;
+    border-left: 7px solid transparent;
     border-top: 12px solid #269926;
 }
 .Information .git a{
@@ -354,9 +354,6 @@
 .Information .Linked a{
 	text-decoration: none;
 	color: #349105;
-}
-.Information .Linked a span{
-    padding-left: 87px;
 }
 @media only screen and (max-width: 700px)
 {
@@ -410,7 +407,6 @@
     }
     .Introduction .Intro_data .logo-nav{
         width: 300px;
-        
     }
     .Introduction .Intro_data .logo-nav li{
         position: relative;
@@ -461,9 +457,6 @@
         color: #269926;
         text-align: center;
         top: 20px;
-    }
-    .Information .Linked a span{
-        padding-left: 68px;
     }
     .line{
 	display: block;
