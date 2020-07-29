@@ -131,8 +131,8 @@
 .S_Explain .score .f_d .range .inner{
 	width: 85%;
 	height: 1px;
-	border: 1px solid  #d70c0c;//#12d912;
-	background:  #d70c0c;//#12d912;
+	border: 1px solid #47f433;
+	background:  #47f433;
 	border-radius: 20px;
 	animation: animate 2s ;
 }
