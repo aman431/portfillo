@@ -344,7 +344,7 @@
     float: right;
     transform: rotate(180deg);
     border-right: 7px solid transparent;
-    border-left: 7px solid transparent;
+    boder-left: 7px solid transparent;
     border-top: 12px solid #269926;
 }
 .Information .git a{
