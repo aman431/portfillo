@@ -120,8 +120,7 @@
 .S_Explain .score .f_d .range{
 	width: 400px;
 	height: 2px;
-	color: black;
-	background: #c4c2c2e6;
+	background: #cac5c5;
 	border: 1px solid grey;
 	border-radius: 20px;
 }
@@ -132,10 +131,18 @@
 .S_Explain .score .f_d .range .inner{
 	width: 85%;
 	height: 1px;
-	color: red;
-	background: green;
-	border: 1px solid green;
+	border: 1px solid  #d70c0c;//#12d912;
+	background:  #d70c0c;//#12d912;
 	border-radius: 20px;
+	animation: animate 2s ;
+}
+@keyframes animate{
+	from{
+		width: 0%;
+	}
+	to{
+		left: 70%;
+	}
 }
 .whole{
     display: flex;
@@ -155,7 +162,7 @@
 	display: inline-block;
 	height: 470px;
 	color: white;        
-        jutify-content: center;
+        justify-content: center;
 	width: 0px;
 	background: white;
 	border: 1px solid white;
