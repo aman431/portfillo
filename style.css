@@ -470,7 +470,7 @@
 @media only screen and (max-width: 700px)
 {
     .hole{
-        height: 6050px;
+        height: 4900px;
         background: #cac5c5;
     }
     .main{
@@ -577,7 +577,7 @@
 	width: 0px;
 	background: white;
 	border: 1px solid white;
-}
+	}
 .line .spot1{
 	top: 0px;
 	right: 0px;
@@ -667,7 +667,8 @@
 }
 .project_whole{
        position: relative;
-        top: 150px;
+       top: 150px;
+       width: 300px;
 }
 .project_whole h1{
     padding-bottom: 20px;
@@ -678,6 +679,7 @@
 	flex-direction: row;
         padding: 3px;
 	background: white;
+	padding-left: 16px;
 	justify-content: space-between;
 }
 .project1{
@@ -685,12 +687,11 @@
     padding: 3px;
     position: relative;
     top: -30px;
+    padding-left: 16px;
     flex-direction: row;
     background: white;
     justify-content: space-between;
 }
-
-
 }
 /*
 @media only screen and (max-width: 800px){
