@@ -382,6 +382,7 @@
 .project1{
     	display: flex;
 	flex-direction: row;
+	height: 450px;
 	background: white;
 	justify-content: space-between;
 }
@@ -453,6 +454,10 @@
 	line-height: 20px;
 	Letter-spacing: 1px;
 }
+.B_box .content h2 a{
+	text-decoration: none;
+	color: white;
+}
 .B_box .content h2 span
 {
 	font-size: 14px;
@@ -466,6 +471,18 @@
 	color: white;
 	font-weight: 400;
 	Letter-spacing: 2px;
+}
+.view_all{
+	text-align: center;
+}
+.view_all a{
+	font-size: 20px;
+	position: relative;
+	top: -70px;
+	color: black;
+	padding: 10px;
+	border: 1px solid black;
+	text-decoration: none;
 }
 @media only screen and (max-width: 700px)
 {
@@ -686,11 +703,21 @@
     display: block;
     padding: 3px;
     position: relative;
-    top: -30px;
+    top: -70px;
+    height: 1100px;
     padding-left: 16px;
     flex-direction: row;
     background: white;
     justify-content: space-between;
+}
+.view_all a{
+	font-size: 20px;
+	position: relative;
+	top: -140px;
+	color: black;
+	padding: 10px;
+	border: 1px solid black;
+	text-decoration: none;
 }
 }
 /*
