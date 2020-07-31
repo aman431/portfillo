@@ -130,10 +130,10 @@
 .S_Explain .score .f_d .range .inner{
 	width: 85%;
 	height: 1px;
-	border: 1px solid #47f433;
-	background:  #47f433;
+	border: 1px solid green;
+	background:  green;
 	border-radius: 20px;
-	animation: animate 2s ;
+	animation: animate 5s ;
 }
 @keyframes animate{
 	from{
