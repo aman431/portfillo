@@ -585,7 +585,7 @@
 	position: relative;
         color: #269926;
         text-align: center;
-        margin-top: 130px;
+        top: 40px;
     }
     .line{
 	display: block;
