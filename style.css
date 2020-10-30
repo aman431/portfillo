@@ -71,10 +71,10 @@
 	width: 105%; 
 	left: -20px;
 	height: 50px;
-	background: #269926;
+	/*background: #269926;*/
 } 
 .Introduction .Intro_data .logo-nav li{
-	display: inline;
+	display: inline-block;
 	padding: 35px;
 	color: white;
 	font-size: 20px;
@@ -82,7 +82,7 @@
 }
 .Introduction .Intro_data .logo-nav li a i{
 	color: white;
-        padding-top: 15px;
+    padding-top: 15px;
 }
 .skills{
     margin-top: 60px;
