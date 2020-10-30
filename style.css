@@ -101,7 +101,7 @@
 }
 .S_Explain .contain{
     display: block;
-    /*width: 350px;*/
+    width: 350px;
     padding: 40px;
     font-size: 13px;
 }
@@ -156,8 +156,7 @@
     text-align: center;
     top: 40px;
 }
-.line{
-        
+.line{   
 	display: inline-block;
 	height: 470px;
 	color: white;        
@@ -238,7 +237,7 @@
     top: -13px;
 	background: white;
 	border: 1px solid white;
-        box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
+    box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
 .box{
 	position: relative;
@@ -254,7 +253,7 @@
 .para .para2{
 	position: relative;
 	width: 410px;
-        left: -19px;
+    left: -19px;
 	top: 10px;
 	height: 150px;
 	background: white;
