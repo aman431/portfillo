@@ -95,13 +95,13 @@
     display: flex;
     background: white;
     margin-top: 40px;
-    width: 850px;
+    /*width: 850px;*/
     height: 392px;
     box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
 .S_Explain .contain{
     display: block;
-    width: 350px;
+    /*width: 350px;*/
     padding: 40px;
     font-size: 13px;
 }
@@ -152,16 +152,16 @@
 .Education{
         
 	position: relative;
-        color: #269926;
-        text-align: center;
-        top: 40px;
+    color: #269926;
+    text-align: center;
+    top: 40px;
 }
 .line{
         
 	display: inline-block;
 	height: 470px;
 	color: white;        
-        justify-content: center;
+    justify-content: center;
 	width: 0px;
 	background: white;
 	border: 1px solid white;
@@ -235,7 +235,7 @@
 	width: 410px;
 	height: 150px;
 	left: -19px;
-        top: -13px;
+    top: -13px;
 	background: white;
 	border: 1px solid white;
         box-shadow: -10px -10px 10px rgba(98, 91, 91, 0.2), 10px 10px 10px rgba(0, 0, 0, 0.23);
